@@ -1,2 +1,2 @@
 # REAL
-An official repo for the REAL game made for a Brackeys Game Jam 2022.1
+REAL - a mini-game/prototype created for the Brackeys Game Jam 2022.1
