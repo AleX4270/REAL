@@ -10,8 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3921433553374308939}
   - component: {fileID: 3275023998228845865}
-  - component: {fileID: 8650164454006940795}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Spikes2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83,32 +82,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8650164454006940795
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3154824008689239274}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.061447844, y: -0.37427384}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.8771043, y: 0.25145233}
-  m_EdgeRadius: 0
 --- !u!1 &5075626733645086935
 GameObject:
   m_ObjectHideFlags: 0
@@ -119,8 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4337342801342710003}
   - component: {fileID: 7523841862583290221}
-  - component: {fileID: 2917646047732619530}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Spikes1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -192,32 +164,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2917646047732619530
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5075626733645086935}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.3742736}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 0.2514528}
-  m_EdgeRadius: 0
 --- !u!1 &7331948354132431604
 GameObject:
   m_ObjectHideFlags: 0
@@ -227,7 +173,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3163790648731392699}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Spikes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
