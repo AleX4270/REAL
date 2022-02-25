@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: PlayerData
   m_EditorClassIdentifier: 
   speed: 275
-  jumpForce: 700
-  gravityForce: 50
+  jumpForce: 800
+  startHP: 0

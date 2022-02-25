@@ -72,6 +72,11 @@ public class PlayerPhysics : MonoBehaviour
         this.coyoteTimeCounter = 0;
     }
 
+    internal void AddForce(Vector2 direction)
+    {
+        controller.rb2d.velocity = direction * Time.fixedDeltaTime;
+    }
+
     private void Flip()
     {
         this.facingRight = !this.facingRight;

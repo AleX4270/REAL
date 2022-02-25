@@ -5,8 +5,14 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private PlayerController controller;
+    private float doubleJumpTime;
 
-    private void FixedUpdate()
+    private void Start()
+    {
+        this.doubleJumpTime = 1f;
+    }
+
+    private void Update()
     {
         MovementLoop();
     }
@@ -24,5 +30,10 @@ public class PlayerMovement : MonoBehaviour
         {
             controller.physics.Jump(controller.data.jumpForce);
         }
+    }
+
+    internal void respawnPlayer()
+    {
+        this.transform.position = controller.spawnPoint.position;
     }
 }

@@ -4,16 +4,18 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("PLAYER")]
     [SerializeField] internal PlayerMovement movement;
     [SerializeField] internal PlayerData data;
     [SerializeField] internal PlayerPhysics physics;
     [SerializeField] internal PlayerInput input;
-
     [SerializeField] internal PlayerState state = new PlayerState();
 
+    [Header("Other")]
     [SerializeField] internal Transform groundCheck;
     [SerializeField] internal LayerMask groundLayer;
     [SerializeField] internal Animator anim;
+    [SerializeField] internal Transform spawnPoint;
 
     [Header("Fancy Options")]
     [SerializeField] internal float coyoteTime;

@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/JohnsRoom.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/StartScreen.unity
+    guid: f27f0aa147c85664f98036d96489a36b
+  - enabled: 1
+    path: Assets/Scenes/FirstLevel.unity
+    guid: b1ffba39231602e4e9e9d87a514a208a
+  - enabled: 1
+    path: Assets/Scenes/SecondLevel.unity
+    guid: 419f369db72080a4faa06828f8bd56c9
+  - enabled: 1
+    path: Assets/Scenes/ThirdLevel.unity
+    guid: b249c1fa9cfd52341be421cfbd4a16b1
+  - enabled: 1
+    path: Assets/Scenes/EndScreen.unity
+    guid: de9d32732146b8b4fb260732b10d928e
   m_configObjects: {}

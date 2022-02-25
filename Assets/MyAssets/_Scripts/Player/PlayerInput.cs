@@ -13,7 +13,7 @@ public class PlayerInput : MonoBehaviour
 
     internal bool GetPlayerInputJump()
     {
-        return Input.GetButton("Jump");
+        return Input.GetButtonDown("Jump");
     }
 
     internal bool GetPlayerInputDimensionChange()
