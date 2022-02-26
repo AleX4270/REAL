@@ -7,6 +7,15 @@ public class GameMenuManager : MonoBehaviour
 {
     public bool isStartScene;
 
+    private void Start()
+    {
+        var instance = FindObjectOfType<AudioManager>();
+        if(!isStartScene && instance.gameObject != null)
+        {
+            Destroy(instance.gameObject);
+        }
+    }
+
     private void Update()
     {
         if(Input.GetKeyDown(KeyCode.Return) && isStartScene)

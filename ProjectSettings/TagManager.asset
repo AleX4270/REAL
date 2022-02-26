@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ReversedDimensionObjects
   - Bolts
+  - VolumeInfo
   layers:
   - Default
   - TransparentFX
